@@ -27,21 +27,16 @@ export const formatCurrency = (amount, decimalPlaces = 2, showDecimals = true, z
     }
 
     // 确保金额为数字并格式化
-    const amountString = numericAmount.toFixed(decimalPlaces);
+    // 这里使用 toLocaleString 可以自动处理小数和分隔符
+    let options = {
+        minimumFractionDigits: showDecimals ? decimalPlaces : 0,
+        maximumFractionDigits: showDecimals ? decimalPlaces : 0
+    };
 
-    // 根据配置决定是否显示小数部分
-    const integerPart = showDecimals ? amountString : amountString.split('.')[0];
-
-    // 格式化整数部分为三位分隔符
-    const formattedIntegerPart = integerPart.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-
-    // 如果需要显示小数部分
-    const decimalPart = showDecimals ? amountString.split('.')[1] || '' : '';
-
-    // 拼接结果
-    return `${formattedIntegerPart}${decimalPart ? '.' + decimalPart : ''}`;
+    // 使用toLocaleString来处理格式化
+    return numericAmount.toLocaleString(undefined, options);
 };
 
 
 // 示例调用
-console.log(formatCurrency(1234567.890, 8)); // 输出 "1,234,567.89000000"
+console.log(formatCurrency(29.414067337818853376, 10, true));

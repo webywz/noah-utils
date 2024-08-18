@@ -1,6 +1,6 @@
 {
   "name": "noah-utils",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "index.js",
   "type": "module",
   "repository": {
@@ -8,7 +8,7 @@
     "url": "https://github.com/webywz/noah-utils"
   },
   "scripts": {
-    "test": "nodemon ./Date/dateFormat.js"
+    "test": "nodemon ./Number/formatCurrency.js"
   },
   "keywords": [],
   "author": "",

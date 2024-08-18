@@ -4,6 +4,9 @@
 *IDE 名称：WebStorm
 */
 import * as utilsTree from "./Tree/index.js"
+import { formatCurrency } from "./Number/formatCurrency.js";
+
 export {
-    utilsTree
+    utilsTree,
+    formatCurrency
 }

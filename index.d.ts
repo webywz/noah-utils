@@ -1,4 +1,5 @@
-declare module 'formatCurrency' {
-    // 声明内容
-    function formatCurrency(amount: number | string, decimalPlaces: number, showDecimals:boolean, zeroAsEmpty: boolean): string;
-}
+// /index.d.ts
+import type * as utilsTree from "./Tree/index";
+import type { formatCurrency } from "./Number/formatCurrency";
+
+export { utilsTree, formatCurrency };

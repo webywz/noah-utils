@@ -5,7 +5,7 @@
 */
 // import { addTreeTest } from "./addTreeTest.js";
 // import { delTreeNodeTest } from "./delTreeNodeTest.js"
-import { updateTreeNodeTest } from "./updateTreeNodeTest.js";
+// import { updateTreeNodeTest } from "./updateTreeNodeTest.js";
 // addTreeTest()
 // delTreeNodeTest()
-updateTreeNodeTest()
+// updateTreeNodeTest()

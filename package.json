@@ -8,13 +8,14 @@
     "url": "https://github.com/webywz/noah-utils"
   },
   "scripts": {
-    "test": "nodemon ./test/index.js"
+    "test": "nodemon ./Date/dateFormat.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "dayjs": "^1.11.12",
     "nodemon": "^3.1.4"
   }
 }

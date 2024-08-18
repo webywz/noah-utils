@@ -4,6 +4,8 @@
 *IDE 名称：WebStorm
 */
 // import { addTreeTest } from "./addTreeTest.js";
-import { delTreeNodeTest } from "./delTreeNodeTest.js"
+// import { delTreeNodeTest } from "./delTreeNodeTest.js"
+import { updateTreeNodeTest } from "./updateTreeNodeTest.js";
 // addTreeTest()
-delTreeNodeTest()
+// delTreeNodeTest()
+updateTreeNodeTest()

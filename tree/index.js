@@ -5,8 +5,10 @@
 */
 import { addTree } from "./addTree.js";
 import { delTreeNode } from "./delTreeNode.js";
+import { updateTreeNode } from "./updateTreeNode.js";
 
 export {
     addTree,
-    delTreeNode
+    delTreeNode,
+    updateTreeNode
 }

@@ -1,12 +1,20 @@
 {
-  "name": "noahutils",
+  "name": "noah-utils",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webywz/noah-utils"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon ./test/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
 }

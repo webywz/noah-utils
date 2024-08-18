@@ -4,7 +4,7 @@
 *IDE 名称：WebStorm
 */
 //测试用例
-import {updateTreeNode} from '../tree/index.js';
+import {updateTreeNode} from '../Tree/index.js';
 import { treeData } from "./data.js";
 
 export const updateTreeNodeTest = () => {

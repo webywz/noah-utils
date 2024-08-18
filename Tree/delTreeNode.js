@@ -1,6 +1,6 @@
 /*
 *当前日期：星期日
-*文件路径：tree/delTreeNode.js
+*文件路径：Tree/delTreeNode.js
 *IDE 名称：WebStorm
 */
 export const delTreeNode = (tree, id, contrastId) => {

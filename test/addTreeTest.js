@@ -3,7 +3,7 @@
 *文件路径：test/addTreeTest.js
 *IDE 名称：WebStorm
 */
-import {addTree} from "../tree/index.js";
+import {addTree} from "../Tree/index.js";
 import {treeData} from "./data.js";
 export const addTreeTest = () => {
     const addNode = { id: 123, name: 'addNode' }

@@ -3,7 +3,7 @@
 *文件路径：/index.js
 *IDE 名称：WebStorm
 */
-import * as utilsTree from "./tree/index.js"
+import * as utilsTree from "./Tree/index.js"
 export {
     utilsTree
 }

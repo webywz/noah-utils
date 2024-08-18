@@ -4,7 +4,7 @@
 *IDE 名称：WebStorm
 */
 import {treeData} from "./data.js";
-import {delTreeNode} from "../tree/index.js";
+import {delTreeNode} from "../Tree/index.js";
 
 export const delTreeNodeTest = () => {
     let newTree = delTreeNode(treeData, '2', 'id')

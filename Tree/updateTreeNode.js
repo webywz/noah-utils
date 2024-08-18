@@ -1,6 +1,6 @@
 /*
 *当前日期：星期日
-*文件路径：tree/updateTreeNodeTest.js
+*文件路径：Tree/updateTreeNodeTest.js
 *IDE 名称：WebStorm
 */
 export const updateTreeNode = (tree, newNode, contrastId = 'id') => {

@@ -1,6 +1,6 @@
 /*
 *当前日期：星期日
-*文件路径：tree/addTree.js
+*文件路径：Tree/addTree.js
 *IDE 名称：WebStorm
 */
 /**

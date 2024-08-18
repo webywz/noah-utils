@@ -1,9 +1,8 @@
 {
   "name": "noah-utils",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.js",
   "type": "module",
-  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/webywz/noah-utils"

@@ -4,7 +4,9 @@
 *IDE 名称：WebStorm
 */
 import { addTree } from "./addTree.js";
+import { delTreeNode } from "./delTreeNode.js";
 
 export {
-    addTree
+    addTree,
+    delTreeNode
 }

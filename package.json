@@ -1,40 +1,25 @@
 {
   "name": "noah-utils",
-  "version": "2.0.2",
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "type": "module",
+  "version": "2.0.3",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
-    "start": "nodemon",
-    "build": "tsc",
-    "test": "jest",
+    "build": "rollup -c",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "dayjs": "^1.11.12"
   },
   "devDependencies": {
-    "@types/jest": "^29.5.14",
-    "@types/mocha": "^10.0.9",
-    "@types/node": "^22.9.1",
-    "nodemon": "^3.1.7",
-    "ts-jest": "^29.2.5",
-    "ts-node": "^10.9.2",
+    "@rollup/plugin-commonjs": "^25.0.8",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^2.79.2",
+    "tslib": "^2.8.1",
     "typescript": "^5.6.3"
-  },
-  "nodemonConfig": {
-    "watch": [
-      "**/*.ts"
-    ],
-    "exec": "node --loader ts-node/esm",
-    "ext": "ts"
   }
 }

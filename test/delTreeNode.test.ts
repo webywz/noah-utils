@@ -1,4 +1,5 @@
-import { delTreeNode, TreeNode } from '../Tree/delTreeNode';
+import { delTreeNode } from '../Tree/delTreeNode';
+import { TreeNode } from '../Tree/types';
 
 describe('delTreeNode', () => {
     it('should delete a node with the given id', () => {

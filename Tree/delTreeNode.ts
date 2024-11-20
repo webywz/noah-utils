@@ -1,13 +1,10 @@
-export interface TreeNode {
-    [key: string]: any;
-    children: TreeNode[];
-}
+import { TreeNode } from './types';
 
-export const delTreeNode = (tree: TreeNode[], id: string, contrastId: string): TreeNode[] => {
+export function delTreeNode(tree: TreeNode[], id: string | number, contrastId: string = 'id'): TreeNode[] {
     return tree
+        .filter(node => node[contrastId] !== id)
         .map(node => ({
             ...node,
             children: node.children ? delTreeNode(node.children, id, contrastId) : []
-        }))
-        .filter(node => node[contrastId] !== id);
+        }));
 } 

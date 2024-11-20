@@ -1,7 +1,7 @@
 <!--
  * @Author: Noah
  * @Date: 2024-11-20 08:55:55
- * @LastEditTime: 2024-11-20 08:56:25
+ * @LastEditTime: 2024-11-20 09:03:41
  * @FilePath: \noah-utils\README.md
  * @Description: 
  * 
@@ -25,4 +25,4 @@ Noah Utils 是一个用于处理树结构和货币格式化的实用工具库。
 
 ## 安装
 
-使用 npm 安装：
+使用 npm 安装：npm i noah-utils
